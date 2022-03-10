@@ -24,8 +24,11 @@ gem "stimulus-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
+
+
+
 group :production do
-  gem 'pg', '~> 0.21' # for Heroku deployment
+  gem 'pg', '~> 1.1' # for Heroku deployment
   gem 'rails_12factor'
 end
 
