@@ -1,5 +1,9 @@
 require "rails_helper"
 
+=begin
+
+#These tests are examples of what might be used on future tests. However not complete
+
 RSpec.describe "Account information" do
     it "Is user signed in" do
       expect(user.valid?).to eq(true)
@@ -31,3 +35,5 @@ RSpec.describe "Project manipulation" do
         project.remove(name:"test", desciption:"")
     end
 end
+
+=end

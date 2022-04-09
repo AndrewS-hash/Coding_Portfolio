@@ -6,7 +6,6 @@ ruby "2.7.0"
 
   
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem "rails", "~> 7.0.2", ">= 7.0.2.2"
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
@@ -66,7 +65,7 @@ group :development, :test do
 
   #added 03/28/2022 [https://github.com/UCCSCS3300/rails-rspec-tutorial/blob/master/README.md]
   gem 'rspec-rails', '~> 3.7'
-  #gem 'capybara'
+  gem 'capybara'
 
 end
 
@@ -98,3 +97,7 @@ gem 'mini_racer'
 
 #SimpleCov [https://github.com/simplecov-ruby/simplecov/blob/main/README.md]
 gem 'simplecov', require: false, group: :test
+
+
+#getting started with Devise [https://github.com/heartcombo/devise#getting-started]
+gem 'devise'
